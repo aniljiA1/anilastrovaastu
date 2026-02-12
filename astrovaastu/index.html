@@ -29,6 +29,18 @@
       crossorigin="anonymous"
     ></script>
 
+    <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const btn = document.getElementById("menu-btn");
+    const menu = document.getElementById("mobile-menu");
+
+    btn.addEventListener("click", function () {
+      menu.classList.toggle("hidden");
+    });
+  });
+</script>
+
+
     <style>
       body {
         font-family: "Inter", sans-serif;
